@@ -1,0 +1,16 @@
+dist: bionic
+language: node_js
+node_js:
+  - lts/*
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install git
+  - git clone https://github.com/emscripten-core/emsdk ~/emsdk
+before_script:
+  - pushd ~/emsdk
+  - git pull
+  - ./emsdk install latest
+  - ./emsdk activate latest
+  - source ./emsdk_env.sh
+  - popd
+script: yarn build

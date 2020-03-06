@@ -1,0 +1,48 @@
+{
+  "name": "tree-sitter-wasm-prebuilt",
+  "version": "0.0.1",
+  "description": "Prebuilt WASM binaries for tree-sitter's language parsers.",
+  "repository": "https://github.com/Menci/tree-sitter-wasm-prebuilt",
+  "author": "Menci <huanghaorui301@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {
+    "format": "prettier --write build.js",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7",
+    "cz-conventional-changelog": "3.1.0",
+    "prettier": "^1.19.1",
+    "fs-extra": "^8.1.0",
+    "tree-sitter-cli": "^0.16.5",
+    "tree-sitter-bash": "^0.16.1",
+    "tree-sitter-c": "^0.16.0",
+    "tree-sitter-c-sharp": "^0.16.1",
+    "tree-sitter-cpp": "^0.16.0",
+    "tree-sitter-css": "^0.16.0",
+    "tree-sitter-elm": "^2.7.6",
+    "tree-sitter-embedded-template": "^0.16.0",
+    "tree-sitter-go": "^0.16.0",
+    "tree-sitter-html": "^0.16.0",
+    "tree-sitter-java": "^0.16.0",
+    "tree-sitter-javascript": "^0.16.0",
+    "tree-sitter-lua": "^1.6.0",
+    "tree-sitter-markdown": "^0.3.0",
+    "tree-sitter-php": "^0.16.1",
+    "tree-sitter-python": "^0.16.1",
+    "tree-sitter-ruby": "^0.16.1",
+    "tree-sitter-rust": "^0.16.0",
+    "tree-sitter-systemrdl": "^0.4.2",
+    "tree-sitter-toml": "^0.2.0",
+    "tree-sitter-vue": "^0.1.0",
+    "tree-sitter-yaml": "^0.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "files": [
+    "/lib"
+  ]
+}
