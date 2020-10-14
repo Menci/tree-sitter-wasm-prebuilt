@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-wasm-prebuilt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prebuilt WASM binaries for tree-sitter's language parsers.",
   "repository": "https://github.com/Menci/tree-sitter-wasm-prebuilt",
   "author": "Menci <huanghaorui301@gmail.com>",
